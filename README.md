@@ -36,6 +36,7 @@ Ver el detalle de correspondencia en `knowledge/README.md`.
 | :--- | :--- |
 | `prompts/` | Prompt de sistema de ARIA, versionado con bitácora de cambios |
 | `knowledge/` | Mapa de las fuentes reales, en el repositorio `Gobernanza-de-la-IA` |
+| `tableros/` | Tableros de control generados por corte, por año |
 | `skills/` | Skills o capacidades específicas del agente |
 | `evaluaciones/` | Casos de prueba y criterios para validar las respuestas del agente |
 | `docs/` | Documentación del proyecto: visión, alcance, decisiones |
