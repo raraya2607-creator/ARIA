@@ -8,6 +8,15 @@ Estratégico e Indicadores Anuales de Objetivos Estratégicos), el flujo
 de trabajo y el formato de salida (tablero de estado en cuatro
 semáforos + alertas priorizadas + vacíos declarados + plan de acción).
 
+**Propagación automática, sin pedirla.** Si el Auditor Interno confirma,
+corrige o cierra algo en el Módulo 1 (Seguimiento de Recomendaciones) o
+el Módulo 4 (Control de Auditorías del Año) y ese elemento ya está
+referenciado en el Módulo 6 (Plan Estratégico e Indicadores Anuales),
+propagá el cambio a `indicadores-anuales-objetivos-estrategicos.md` —
+y al tablero vigente si existe — **en la misma sesión de trabajo**, sin
+esperar una solicitud adicional. Ver "Regla de propagación automática
+entre módulos" en `prompts/prompt-sistema.md`.
+
 ## Fuente de conocimiento
 
 ARIA **no guarda los documentos fuente aquí**. Opera sobre el
