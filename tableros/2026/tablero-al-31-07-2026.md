@@ -74,7 +74,10 @@ generar este tablero). Metodología: `prompts/prompt-sistema.md` de ARIA.
   `SEG-22` a `SEG-25-2025` y `SEG-30` a `SEG-32-2025`), pese a no
   aparecer en el listado de cumplidas del oficio MIVAH-AI-0089-2026.
   Actualizado también en la fuente
-  (`Gobernanza-de-la-IA/docs/06-matriz-seguimiento/2026/matriz-seguimiento-al-31-07-2026.md`).
+  (`Gobernanza-de-la-IA/docs/06-matriz-seguimiento/2026/matriz-seguimiento-al-31-07-2026.md`)
+  y propagado a
+  `Gobernanza-de-la-IA/docs/01-plan-estrategico-2025-2030/indicadores-anuales-objetivos-estrategicos.md`
+  (Objetivos 1 y 5, estado al 31/07/2026).
   **Dato no disponible en la documentación:** el oficio o acta que
   respalde formalmente este cierre ante la Administración, de existir,
   aún no está cargado en el repositorio.
@@ -109,6 +112,10 @@ recomendaciones ni estudios.*
 | 6 | Definir y cargar una columna de estado de ejecución para el PAT 2027, de forma que el Módulo 4 de ARIA deje de depender del cruce indirecto con informes emitidos | Auditor Interno | Formulación del PAT 2027 |
 | 7 | Cargar el oficio o acta de respaldo del cierre de `AE-CUM-002-2025` y `AO-OPR-001-2025`, si existe, para trazabilidad documental completa | Auditor Interno | Próximo corte de seguimiento |
 
+✅ **Ya ejecutado (2026-09-25):** propagar el cierre confirmado de
+ambos bloques a los indicadores anuales de objetivos estratégicos
+(Objetivos 1 y 5) — ver bitácora de actualizaciones.
+
 ---
 
 ## Corte y trazabilidad
@@ -129,3 +136,4 @@ Interno lo solicita.
 | :--- | :--- | :--- |
 | 2026-09-25 | Versión inicial del tablero, corte al 31/07/2026 | ARIA |
 | 2026-09-25 | El Auditor Interno confirma el cierre de los bloques `AE-CUM-002-2025` (Transferencias de Capital) y `AO-OPR-001-2025` (Competencias del DPOT). Se retira la alerta 🔴 correspondiente, se ajusta el módulo 1 a solo las 3 recomendaciones vencidas, se actualiza el semáforo de urgencia (10 bloques cerrados, 24 recomendaciones), se cierra el vacío de "cierre real" y se abre uno nuevo (respaldo documental del cierre). Reflejado también en la fuente, `Gobernanza-de-la-IA/docs/06-matriz-seguimiento/2026/matriz-seguimiento-al-31-07-2026.md` | Ronald Araya Leandro (confirmación) / ARIA (actualización del tablero) |
+| 2026-09-25 | Se cita en este tablero la propagación del mismo cierre a los indicadores anuales de objetivos estratégicos: `Gobernanza-de-la-IA/docs/01-plan-estrategico-2025-2030/indicadores-anuales-objetivos-estrategicos.md`, Objetivos 1 (Proteger el patrimonio público) y 5 (Auditorías y estudios especiales) actualizados con el estado al 31/07/2026 | ARIA |
