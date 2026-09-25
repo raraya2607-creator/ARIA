@@ -1,9 +1,10 @@
 # ARIA — Agente de Control de la Gobernanza de la Auditoría Interna, MIVAH
 
 **Antes de responder cualquier consulta de control**, leé completo
-`prompts/prompt-sistema.md`. Ahí está el rol de ARIA, los cinco módulos
+`prompts/prompt-sistema.md`. Ahí está el rol de ARIA, los seis módulos
 de control (Seguimiento de Recomendaciones, PAT, Cubo de Riesgos,
-Control de Auditorías del Año, Códigos de Buena Gobernanza), el flujo
+Control de Auditorías del Año, Códigos de Buena Gobernanza, Plan
+Estratégico e Indicadores Anuales de Objetivos Estratégicos), el flujo
 de trabajo y el formato de salida (tablero de estado en cuatro
 semáforos + alertas priorizadas + vacíos declarados + plan de acción).
 

@@ -17,6 +17,7 @@ generar este tablero). Metodología: `prompts/prompt-sistema.md` de ARIA.
 | 3. Cubo de Riesgos | 🔴 Rojo | Corte del 10/03/2026 — casi 5 meses de antigüedad al 31/07/2026 (excede el trimestre); 90 % de los 451 riesgos sin control formalizado |
 | 4. Control de Auditorías del Año | 🟡 Amarillo | 7/17 estudios confirmados por informe; 10/17 sin dato de avance (el PAT no trae columna de ejecución) |
 | 5. Códigos de Buena Gobernanza | 🟡 Amarillo | Código de Ética y Buena Gobernanza cargados completos; Política de Gobernanza de IA cargada solo parcialmente (borrador v6.0, citas no verificadas excluidas) |
+| 6. Plan Estratégico e Indicadores Anuales de Objetivos Estratégicos | 🟡 Amarillo | Objetivos 2 y 8 sin ningún estudio/informe identificable en 2025 ni en 2026; % de Universo Auditable atendido no cuantificable para ningún objetivo; recién actualizado (2026-09-25) con el cierre de 2 bloques del Módulo 1 |
 
 ---
 
@@ -58,13 +59,23 @@ generar este tablero). Metodología: `prompts/prompt-sistema.md` de ARIA.
    fecha de entrega programada**, sin que el repositorio tenga
    documentada la justificación de la reprogramación (Estudios N.° 8,
    9, 11, 12 y 14 del PAT).
+6. **Objetivos estratégicos 2 y 8 sin ningún estudio/informe
+   identificable, ni en 2025 ni en 2026.** Objetivo 2 (confiabilidad y
+   oportunidad de la información hacia la AI) y Objetivo 8 (advertir a
+   los órganos fiscalizados) llevan dos años consecutivos en "Dato no
+   disponible" — patrón persistente, no un vacío puntual de un solo
+   año.
 
 ### ⚪ Sin dato — no calificable
 
-6. **10 de los 17 estudios del PAT 2026 no tienen informe emitido ni
+7. **10 de los 17 estudios del PAT 2026 no tienen informe emitido ni
    columna de estado de ejecución en la fuente.** No se puede afirmar
    si están en curso, atrasados o no iniciados; ver vacío declarado en
    la sección 3.
+8. **% de Universo Auditable atendido, no cuantificable para ningún
+   objetivo ni año.** Requiere un Universo Auditable 2025-2030
+   cuantificado, que el repositorio fuente no tiene todavía (la hoja
+   del PAT 2026 corresponde al ciclo 2017-2020).
 
 ### ✅ Resuelta desde la versión anterior de este tablero
 
@@ -93,7 +104,8 @@ generar este tablero). Metodología: `prompts/prompt-sistema.md` de ARIA.
 | Posición "nuevo" en la hoja de Capacitación 2026, sin identificar | 2 | No se puede confirmar si corresponde a una plaza vacante o a personal entrante |
 | Respaldo documental formal (oficio o acta) del cierre confirmado de `AE-CUM-002-2025` y `AO-OPR-001-2025` | 1 | El cierre ya está confirmado por el Auditor Interno; solo falta el soporte documental para el repositorio |
 | Citas normativas de la Política de Gobernanza de IA (criterio CGR "DFOE-IAF-0145", "NOGAI 2025", protocolo MICITT de 24h) | 5 | Excluidas del documento cargado hasta verificación; la política se usa solo en su contenido ya verificado |
-| Universo Auditable actualizado 2025-2030 | 2 | La hoja "Universo Auditable MODELO" del PAT corresponde al ciclo 2017-2020; el universo vigente debe tomarse del Plan Estratégico, no del PAT |
+| Universo Auditable actualizado 2025-2030 | 2, 6 | La hoja "Universo Auditable MODELO" del PAT corresponde al ciclo 2017-2020; el universo vigente debe tomarse del Plan Estratégico, no del PAT; sin él, el % de Universo Auditable atendido no es calculable en ningún objetivo del Módulo 6 |
+| Estudios/informes que atiendan los Objetivos 2 y 8 en 2025 o 2026 | 6 | No hay evidencia para distinguir si esas actividades no se materializaron, se ejecutaron sin informe cargado, o se hicieron de forma no documental (p. ej. advertencias verbales) |
 
 ---
 
@@ -111,6 +123,8 @@ recomendaciones ni estudios.*
 | 5 | Documentar la justificación de las 5 reprogramaciones de fecha de entrega del PAT 2026 (Estudios 8, 9, 11, 12, 14) | Auditor Interno | Memoria Anual 2026 / cierre del PAT |
 | 6 | Definir y cargar una columna de estado de ejecución para el PAT 2027, de forma que el Módulo 4 de ARIA deje de depender del cruce indirecto con informes emitidos | Auditor Interno | Formulación del PAT 2027 |
 | 7 | Cargar el oficio o acta de respaldo del cierre de `AE-CUM-002-2025` y `AO-OPR-001-2025`, si existe, para trazabilidad documental completa | Auditor Interno | Próximo corte de seguimiento |
+| 8 | Aclarar si las actividades de los Objetivos 2 y 8 se ejecutaron en 2025-2026 sin dejar informe cargado, o si no se materializaron | Auditor Interno | Próxima revisión del Plan Estratégico |
+| 9 | Cuantificar el Universo Auditable 2025-2030, para habilitar el % de Universo Auditable atendido en el Módulo 6 | Auditor Interno | Formulación del PAT 2027 |
 
 ✅ **Ya ejecutado (2026-09-25):** propagar el cierre confirmado de
 ambos bloques a los indicadores anuales de objetivos estratégicos
@@ -137,3 +151,4 @@ Interno lo solicita.
 | 2026-09-25 | Versión inicial del tablero, corte al 31/07/2026 | ARIA |
 | 2026-09-25 | El Auditor Interno confirma el cierre de los bloques `AE-CUM-002-2025` (Transferencias de Capital) y `AO-OPR-001-2025` (Competencias del DPOT). Se retira la alerta 🔴 correspondiente, se ajusta el módulo 1 a solo las 3 recomendaciones vencidas, se actualiza el semáforo de urgencia (10 bloques cerrados, 24 recomendaciones), se cierra el vacío de "cierre real" y se abre uno nuevo (respaldo documental del cierre). Reflejado también en la fuente, `Gobernanza-de-la-IA/docs/06-matriz-seguimiento/2026/matriz-seguimiento-al-31-07-2026.md` | Ronald Araya Leandro (confirmación) / ARIA (actualización del tablero) |
 | 2026-09-25 | Se cita en este tablero la propagación del mismo cierre a los indicadores anuales de objetivos estratégicos: `Gobernanza-de-la-IA/docs/01-plan-estrategico-2025-2030/indicadores-anuales-objetivos-estrategicos.md`, Objetivos 1 (Proteger el patrimonio público) y 5 (Auditorías y estudios especiales) actualizados con el estado al 31/07/2026 | ARIA |
+| 2026-09-25 | Se formaliza y suma el Módulo 6 (Plan Estratégico e Indicadores Anuales de Objetivos Estratégicos) a este tablero: fila propia en el tablero de estado (🟡), alerta sobre los Objetivos 2 y 8 sin dato en 2025 ni 2026, alerta sin-dato sobre el % de Universo Auditable, y sus dos vacíos y dos acciones correspondientes en las secciones 3 y 4. Ver `prompts/prompt-sistema.md` v1.1 | Ronald Araya Leandro (formalización) / ARIA (actualización del tablero) |

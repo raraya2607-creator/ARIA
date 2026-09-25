@@ -8,7 +8,7 @@ Ministerio de Vivienda y Asentamientos Humanos (MIVAH).
 
 ## Qué controla
 
-ARIA mantiene bajo supervisión cinco frentes de la gestión de la
+ARIA mantiene bajo supervisión seis frentes de la gestión de la
 Auditoría Interna, documentados en `prompts/prompt-sistema.md`:
 
 1. **Seguimiento de Recomendaciones** — estado y vencimiento de cada
@@ -22,10 +22,14 @@ Auditoría Interna, documentados en `prompts/prompt-sistema.md`:
 5. **Códigos de Buena Gobernanza** — cumplimiento del Código de Ética,
    el Código de Buena Gobernanza y la Política de Gobernanza de IA en
    toda recomendación o automatización.
+6. **Plan Estratégico e Indicadores Anuales de Objetivos Estratégicos**
+   — cumplimiento anual de los 12 objetivos estratégicos de la
+   Auditoría Interna, mapeo de estudios/informes por objetivo, estado
+   de sus recomendaciones y % de Universo Auditable atendido.
 
 ## Fuente de conocimiento
 
-ARIA no almacena aquí los documentos fuente. Los cinco módulos se
+ARIA no almacena aquí los documentos fuente. Los seis módulos se
 alimentan del repositorio `raraya2607-creator/Gobernanza-de-la-IA`, que
 contiene la documentación real cargada y las skills que la mantienen.
 Ver el detalle de correspondencia en `knowledge/README.md`.
